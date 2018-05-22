@@ -1,0 +1,86 @@
+Algoritma & Pseudocode Challenge
+
+1.Newton Second Law
+
+Algoritma
+=========
+
+1. massa benda sebesar 600 kg
+2. Percepatan benda adalah 2m/s2
+3. mencari resultan gaya newton dengan rumus : massa benda x percepatan benda
+4. didapat hasil resultan gaya newton sebesar 1200 newton
+5. END
+
+Pseudocode
+==========
+
+STORE "massa benda" with 600
+STORE "Percepatan benda" with 2
+STORE "resultan gaya" without any value
+
+CALCULATE "massa benda" x "Percepatan benda"
+SET "resultan gaya" with calculation result
+
+DISPLAY "resultan gaya"
+
+2. Tahun Kabisat
+
+Algoritma
+=========
+
+1. Jika angka tahun itu habis dibagi 400, maka tahun tersebut adalah tahun kabisat.
+2. Jika angka tahun itu tidak habis dibagi 400 tetapi habis dibagi 100, maka tahun bukan merupakan tahun kabisat.
+3. Jika angka tahun tidak habis dibagi 400, tidak habis dibagi 100, dan tidak habis dibagi 4, maka tahun tersebut bukan merupakan tahun kabisat. 
+4. Jika angka tahun itu tidak habis dibagi 400, tidak habis dibagi 100 akan tetapi habis dibagi 4, maka tahun itu merupakan tahun kabisat.
+
+Pseudocode
+==========
+if "year" mod 4 is 0
+then
+if "year" mod 100 is 0
+then
+if "year" mod 400 is 0
+then
+is_leap_year
+else
+not_leap_year
+ 
+
+3. Laundry Case
+
+Algoritma
+=========
+1. jumlah pakaian yang akan di cuci foxie sebanyak 20
+2. foxie memasukan pakaian kedalam mesin cuci satu persatu
+3. mesin cuci akan dinyalakan jika terisi 20 pakaian foxie
+4. END
+
+Pseudocode
+==========
+Store "not wash" with 0
+WHILE "not wash" < 20
+  ADD "add shirt" by 1
+
+DISPLAY "start wash"
+
+4. Periksa kuku
+
+Algoritma
+=========
+1. Seorang guru akan memeriksa kuku 40 murid
+2. setiap murid akan diperiksa kuku nya
+2A.jika kuku murid panjang maka akan dihukum
+2B.jika kuku murid pendek maka akan dipuji
+3. END
+
+Pseudocode
+========== 
+STORE "kuku rapih" by any value
+STORE "kuku panjang" by any value
+STORE "periksa kuku" with 0
+WHILE "periksa kuku" with <=40
+  ADD "periksa kuku" by 1
+IF "periksa kuku" reslut to "kuku rapih"
+  DISPLAY "dipuji"
+ELSE
+  DISPLAY "dimarahi"

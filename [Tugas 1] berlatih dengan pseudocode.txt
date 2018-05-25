@@ -75,12 +75,24 @@ Algoritma
 
 Pseudocode
 ========== 
-STORE "kuku rapih" by any value
-STORE "kuku panjang" by any value
-STORE "periksa kuku" with 0
-WHILE "periksa kuku" with <=40
-  ADD "periksa kuku" by 1
-IF "periksa kuku" reslut to "kuku rapih"
-  DISPLAY "dipuji"
-ELSE
-  DISPLAY "dimarahi"
+STORE "kuku" with any value
+STORE "murid" with 0
+
+WHILE murid LESS THAN 40
+  IF kuku EQUAL WITH panjang
+    DO DISPLAY hukum
+  IF kuku EQUAL WITH pendek
+    DO DISPLAY PUJI 
+
+
+
+
+
+
+
+
+
+
+
+
+

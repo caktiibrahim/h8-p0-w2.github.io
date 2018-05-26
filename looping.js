@@ -25,3 +25,13 @@ for(var i = 20; i > 0; i--){
 }
 
 console.log('==================================')
+
+for(var angka = 1; angka <= 100; angka++){
+  if((angka%2)==1){
+    console.log(angka + ' ganjil');
+  }
+  else if ((angka%2)===0) {
+    console.log(angka + ' genap');
+  }
+}
+

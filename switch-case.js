@@ -1,11 +1,11 @@
 var tanggal = 25
-var bulan = 12
+var bulan = 1
 var tahun = 2018
 bulanDesc = ''
 
 switch (bulan){
   case 1 : {
-    bulanDesc = 'Januari';
+    bulanDesc = 'Januari'
     console.log(tanggal + ' Januari ' + tahun);
     break;
   }case 2 : {

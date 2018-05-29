@@ -1,4 +1,3 @@
-
 console.log('LOOPING PERTAMA')
 var i = 2
 while(i <=20){
@@ -35,3 +34,33 @@ for(var angka = 1; angka <= 100; angka++){
   }
 }
 
+for(var deret = 1; deret <=100; deret++){
+  if(deret % 2 === 0){
+    console.log('counter sekarang ' + deret + ' = Genap');
+  }else if(deret % 2 === 1){
+    console.log('counter sekarang ' + deret + ' = Ganjil');
+  }
+}
+
+
+for(var deret = 1; deret <=100; deret+=2){
+  if(deret % 3 === 0){
+    console.log(deret + ' kelipatan ' + deret);
+  }
+}
+
+for(var deret = 1; deret <=100; deret+=2){
+  if(deret % 3 === 0){
+    console.log(deret + ' kelipatan ' + '3');
+  }
+}
+for(var deret = 1; deret <=100; deret+=5){
+  if(deret % 6 === 0){
+    console.log(deret + ' kelipatan ' + '6')
+  }
+}
+for(var deret = 1; deret <=100; deret+=9){
+  if(deret % 10 === 0){
+    console.log(deret + ' kelipatan ' + '10')
+  }
+}

@@ -23,11 +23,10 @@ for (ii = 0; ii  < rows2; ii++){
 console.log('=============================');
 
 var rows3 = 5
-var coloumn3 = 5
 var print = ''
 
 for(i = 0; i < rows3; i++){
-  for(j = 0; j < coloumn3; j++);
+  for(j = 0; j < rows3; j++);
   print = print +'*'
   console.log(print);
 }
